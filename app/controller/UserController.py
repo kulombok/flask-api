@@ -27,7 +27,6 @@ def show(id):
     except Exception as e:
         print(e)
 
-@jwt_required
 def store():
     try:
         name = request.json['name']
